@@ -1,11 +1,13 @@
 body{
-  max-width: 650px;
+  max-width: 90%;
   margin: auto;
+  font-size: 62.5%;
 }
 
 h1{
   font-family: 'Montserrat', sans-serif;
   color: maroon;
+  text-shadow: 4px 0px 0px rgba(249, 222, 222, 1);
 }
 
 h3, h5{
@@ -16,3 +18,10 @@ p{
   font-family: 'Trirong', serif;
 }
 
+
+@media only screen and (min-width: 500px) {
+  body{
+    max-width: 500px;
+    font-size: 92.5%;
+  }
+}
